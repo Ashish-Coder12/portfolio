@@ -9,7 +9,9 @@ export default function Navbar() {
         <li className="navlinks text-white">Details</li>
         <li className="navlinks text-white">Projects</li>
         <li className="navlinks text-white">Contact</li>
-        <button className='linkbutton text-white'>Resume</button>
+        <Link href={"./ashishgarg.pdf"}>
+            <button className='linkbutton text-white'>Resume</button>
+        </Link>
       </ul>
     </nav>
   )
