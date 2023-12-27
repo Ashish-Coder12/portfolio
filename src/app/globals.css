@@ -117,3 +117,11 @@ nav{
   padding: 20px 30px;
   border-radius: 20px;
 }
+@media (max-width:768px) {
+  .links{
+    display: none;
+  }
+  .custompadding{
+    padding-left: 25px;
+  }
+}
